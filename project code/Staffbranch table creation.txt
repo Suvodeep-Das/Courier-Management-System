@@ -1,0 +1,45 @@
+create table staffBranch(employee_id varchar2(6), joining_date date, employee_name
+varchar2(20), branch varchar2(20), role varchar2(20), phone_no Integer, salary Integer);
+insert into staffBranch values('EP2000', date '2018-06-12', 'Souvik Paul', 'Chennai', 'Assistant',
+905140019, 90514);
+insert into staffBranch values('EP2001', date '2018-07-18', 'Debjyoti Ghosh', 'Asansol',
+'Manager', 905140089, 90517);
+insert into staffBranch values('EP2002', date '2018-08-12', 'Mihir Kanti', 'Mumbai', 'Assistant',
+905140719, 90777);
+insert into staffBranch values('EP2003', date '2018-11-02', 'Suvodeep Das', 'Kolkata',
+'Assistant', 705140019, 40019);
+insert into staffBranch values('EP2004', date '2018-11-02', 'Prapti Dey', 'Bangalore', 'Supervisor',
+775140019, 80019);
+insert into staffBranch values('EP2005', date '2019-01-03', 'Souradeep Atar', 'Dankuni',
+'Assistant', 905880019, 77019);
+insert into staffBranch values('EP2006', date '2019-05-04', 'Rahul Bose', 'Allahabad',
+'Supervisor', 905199919, 90019);
+insert into staffBranch values('EP2007', date '2019-06-05', 'Dev Anand', 'Jaisalmer', 'Assistant',
+777140019, 70019);
+insert into staffBranch values('EP2008', date '2019-07-05', 'Shrishti Ghosh', 'Thane', 'Manager',
+666140019, 60019);
+insert into staffBranch values('EP2009', date '2020-02-06', 'Rohan Yadav', 'Muzzafarpur',
+'Manager', 977740019, 74019);
+insert into staffBranch values('EP2010', date '2020-03-08', 'Mohammad Shami', 'Shimla',
+'Assistant', 9099989019, 51819);
+insert into staffBranch values('EP2011', date '2020-05-09', 'Virat Kohli', 'Srinagar', 'Manager',
+9051845019, 140019);
+insert into staffBranch values('EP2012', date '2021-07-11', 'Saeed Ajmal', 'Chandigarh',
+'Supervisor', 105140019, 814019);
+insert into staffBranch values('EP2013', date '2021-08-17', 'Chris Gayle', 'Trivandum', 'Assistant',
+205140019, 56419);
+insert into staffBranch values('EP2014', date '2021-09-19', 'Vijay Shankar', 'Mysore', 'Assistant',
+855140019, 111019);
+insert into staffBranch values('EP2015', date '20r21-10-28', 'Raj Barman', 'Rohini', 'Assistant',
+9051353621, 149019);
+insert into staffBranch values('EP2016', date '2021-11-29', 'Dibakar Atta', 'Lucknow',
+'Supervisor', 9051177019, 84219);
+insert into staffBranch values('EP2017', date '2021-12-01', 'Rahul Singh', 'Ahmedabad',
+'Manager', 9999910019, 99019);
+insert into staffBranch values('EP2018', date '2022-03-02', 'Ravi Bopara', 'Bhopal', 'Supervisor',
+901140019, 99019);
+insert into staffBranch values('EP2019', date '2022-10-02', 'Debkinkar Raj', 'Patna', 'Assistant',
+9022140019, 8019);
+insert into staffBranch values('EP2020', date '2022-10-03', 'Clara Buttler', 'Dehradun', 'Assistant',
+9027640019, 77019);
+select * from staffBranch
