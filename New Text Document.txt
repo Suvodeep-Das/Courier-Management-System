@@ -1,0 +1,15 @@
+product information
+
+length width height weight 
+(Minimum required dimensions are 15 cm x 11 cm x 1 cm and 
+weight 1 kg)
+
+
+
+from    to 
+product type
+1)Documents 2)Electronics 3)cloths 4)Food products
+
+
+Extended areas - £16.65 or £0.40 per kg, whichever is greater.
+Remote areas - £21.10 or £0.40 per kg, whichever is greater.
