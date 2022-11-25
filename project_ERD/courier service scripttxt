@@ -1,0 +1,46 @@
+REM=========comapny_info=======================
+INSERT INTO comapny_info(cmp_id,cmp_name,com_address)
+ VALUES(101,'trade company', '147/5/6,south jatrabari' );
+
+
+REM=========Branch_info=======================
+
+INSERT INTO Branch_info(Branch_id ,Brnch_name ,Branch_Address,Cmp_ID)
+ VALUES(101,'trade company', 'Dhaka',101 );
+
+INSERT INTO Branch_info(Branch_id ,Brnch_name ,Branch_Address,Cmp_ID)
+ VALUES(102,'trade company', 'Barisal',101 );
+
+INSERT INTO Branch_info(Branch_id ,Brnch_name ,Branch_Address,Cmp_ID)
+ VALUES(103,'trade company', 'Brahmanbaria',101 );
+
+INSERT INTO Branch_info(Branch_id ,Brnch_name ,Branch_Address,Cmp_ID)
+ VALUES(104, 'trade company', 'Chattagram',101 );
+
+REM=========product_category=======================
+
+INSERT INTO product_category(product_id ,category_name,Product_type)
+ VALUES(101, '','' );
+
+INSERT INTO product_category(product_id ,category_name,Product_type)
+ VALUES(102, '', );
+
+INSERT INTO product_category(product_id ,category_name,Product_type)
+ VALUES(103, '', );
+
+INSERT INTO product_category(product_id ,category_name,Product_type)
+ VALUES(104, '', );
+
+INSERT INTO product_category(product_id ,category_name,Product_type)
+ VALUES(105, '', );
+
+REM=========product_rcve_by_Brnch=======================
+
+NSERT INTO  product_rcve_by_Brnch(Branch_recvd_id ,branch_recv_date,client_id ,client_contact_no ,Delivery_Address ,Staff_id )
+ VALUES(111, ' ', );
+
+NSERT INTO  product_rcve_by_Brnch(Branch_recvd_id ,branch_recv_date,client_id ,client_contact_no ,Delivery_Address ,Staff_id )
+ VALUES(112, ' ', );
+
+
+
