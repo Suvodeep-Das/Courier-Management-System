@@ -1,3 +1,0 @@
-select tracking_id, sender_name
-from courier
-where parcel_id = 'IK2005';

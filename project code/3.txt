@@ -1,3 +1,0 @@
-select status, delivery_date
-from courier
-where order_date > '01-AUG-2022';

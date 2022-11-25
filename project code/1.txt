@@ -1,4 +1,0 @@
-select sender_name
-from courier
-where sender_city in ('Indore', 'Ahmedabad', 'Kanpur', 'Vizag', 'Surat', 'Chennai', 'Hyderabad',
-'Pune', 'Bangalore', 'Kolkata', 'Mumbai', 'Delhi');
